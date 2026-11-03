@@ -1,0 +1,67 @@
+
+{
+  "type": "object",
+  "properties": {
+    "candidate_name": {
+      "type": ["string", "null"],
+      "description": "Full name of the candidate"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Technical and professional skills"
+    },
+    "years_of_experience": {
+      "type": ["number", "null"],
+      "description": "Total years of professional experience"
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": {
+            "type": ["string", "null"]
+          },
+          "institution": {
+            "type": ["string", "null"]
+          },
+          "graduation_year": {
+            "type": ["integer", "null"]
+          }
+        },
+        "required": [
+          "degree",
+          "institution",
+          "graduation_year"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Strengths explicitly supported by the resume"
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Relevant information missing from the resume"
+    }
+  },
+  "required": [
+    "candidate_name",
+    "skills",
+    "years_of_experience",
+    "education",
+    "strengths",
+    "gaps"
+  ],
+  "additionalProperties": false
+}

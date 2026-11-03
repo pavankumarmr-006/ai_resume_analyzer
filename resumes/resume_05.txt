@@ -1,0 +1,31 @@
+
+CANDIDATE 5
+Name: Dummy Candidate 5
+Email: candidate5@example.com
+
+PROFESSIONAL SUMMARY
+Motivated Java Developer with experience in software development,
+problem solving and technology.
+
+SKILLS
+Python, Java, SQL, Git, HTML, CSS, Communication
+
+WORK EXPERIENCE
+Software Professional
+ABC Technologies
+2022 - 2025
+
+Worked on development projects, debugging,
+testing and team collaboration.
+
+EDUCATION
+Bachelor of Engineering
+Computer Science
+2022
+
+PROJECTS
+Developed applications using Python and SQL.
+Worked with databases and modern development tools.
+
+CERTIFICATIONS
+Python Programming Certification
